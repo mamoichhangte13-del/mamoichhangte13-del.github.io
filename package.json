@@ -1,0 +1,21 @@
+{
+  "name": "room-booking-api",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prisma": "6.16.2"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "^10.1.0",
+    "@libsql/client": "^0.17.4",
+    "@prisma/adapter-libsql": "^7.9.1",
+    "@prisma/client": "6.16.2",
+    "graphql": "^17.0.2",
+    "graphql-yoga": "^5.22.0"
+  }
+}
