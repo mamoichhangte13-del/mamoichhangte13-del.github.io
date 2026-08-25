@@ -1,15 +1,14 @@
 # room-booking-api
 
-To install dependencies:
+GraphQL API for room booking with overlap protection.
 
-```bash
+To install dependencies:
 bun install
-```
 
 To run:
-
-```bash
 bun run index.ts
-```
 
-This project was created using `bun init` in bun v1.4.0. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+Test:
+bun test
+
+Stack: Bun, GraphQL Yoga, Prisma, PostgreSQL
